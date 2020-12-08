@@ -44,4 +44,4 @@ data = dict(
         ann_file='/content/drive/MyDrive/anther_final_data/with_two_classes_json/val.json',
         img_prefix='/content/drive/MyDrive/anther_final_data/val_imgs/',
         pipeline=test_pipeline))
-evaluation = dict(interval=1, metric='bbox')
+evaluation = dict(interval=2, metric='bbox')
